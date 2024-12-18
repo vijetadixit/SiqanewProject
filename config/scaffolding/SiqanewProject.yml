@@ -7,3 +7,58 @@ packages:
   gitUrl: https://github.com/vijetadixit
   gitUsername: vijetadixit
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_orcl
+  packages:
+  - name: SiqanewProject
+    version: "1.0"
+configurationVariables:
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.trustStore
+  : ""
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.user
+  : SYSTEM
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.oracle.OracleDataSource
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.dbType
+  : ORACLE
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.poolable
+  : "true"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.password
+  : "{AES}IAHuS7eGLGqvEJHapmpWIA=="
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.serverName
+  : 52.188.149.198
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.databaseName
+  : ORCLCDB
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionEnabled
+  : "false"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.keyStore
+  : ""
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionSettings.portNumber
+  : "1521"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.SiqanewProject.project.siqanew.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_orcl.connectionManagerSettings.heartBeatInterval
+  : "0"
